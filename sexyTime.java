@@ -44,13 +44,13 @@ public class sexyTime {
 			if ((feeling - annoyed) >= 7 && notBusy.contentEquals(yes)) {
 				
 				System.out.println();
-				System.out.println("Go for it bro, she wants the D!");
+				System.out.println("She wants the wants the D!");
 				System.out.println();
 				
 			} else if ((feeling - annoyed) >= 6 && notBusy.contentEquals(yes)) {
 				
 				System.out.println();
-				System.out.println("Take a shot :), there's a good chance you'll hit the target...");
+				System.out.println("Go for it compa, there's a good chance she's down...");
 				System.out.println();
 			
 			} else if ((feeling - annoyed) >= 5 && notBusy.contentEquals(yes)) {
@@ -59,16 +59,16 @@ public class sexyTime {
 				System.out.println("Make the attempt, but be ready for failure...");
 				System.out.println();
 				
-			} else if ((feeling - annoyed) < 5 && notBusy.contentEquals(yes)) {
+			} else if ((feeling - annoyed) >= 4 && notBusy.contentEquals(yes)) {
 				
 				System.out.println();
 				System.out.println("No funny bussiness; bring her cheese, maybe give her space...");
 				System.out.println();
 				
-			} else if ((feeling - annoyed) <= 3 && notBusy.contentEquals(yes)) {
+			} else if ((feeling - annoyed) >= 3 && notBusy.contentEquals(yes)) {
 				
 				System.out.println();
-				System.out.println("Get her flowers, chocolate, and a foot rub immediately, then go away.");
+				System.out.println("Get her flowers, chocolate, and a foot rub immediately...then go away.");
 				System.out.println();
 				
 			} else {
